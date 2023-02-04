@@ -310,7 +310,7 @@ const TriggerAdditions = [
                 " moans softly, twitching %POSSESSIVE% ears as it's kissed."]],
                 HeadBrush :
                 [["",""],
-                [" purrs softly and twitches %POSSESSIVE% ears.", " purrs happily and twitches %POSSESSIVE% ears."]],
+                [" squeaks softly and furls %POSSESSIVE% wings.", " squeaks softly and furls %POSSESSIVE% wings."]],
                 HeadPat :
                 [["","","",""],
                 [" purrs softly and twitches %POSSESSIVE% ears.", " purrs happily and twitches %POSSESSIVE% ears.",
