@@ -292,38 +292,37 @@ const TriggerAdditions = [
 //Functions
 
     const typeAction = { EarCaress :
-                [["Mnyaa~","Nnyaaaaah~","Nnyaaaaah~","Nnyaa~","Nyaa~"], // sounds
-                [" purrs softly, twitching %POSSESSIVE% ears.", " twitches %POSSESSIVE% ears, purring loudly as %POSSESSIVE% ears are toyed with.",
-                " twitches %POSSESSIVE% ears, purring loudly as %POSSESSIVE% ears are toyed with.", " squirms, twitches %POSSESSIVE% ears and purrs.",
-                " wiggles and twitches %POSSESSIVE% ears purring softly."]], // actions // order matters, match sound with action
+                [["Guhh...","Mmngh..","Nnnh~!"], // sounds
+                [" squeaks softly, twitching %POSSESSIVE% ears.", " squirms, twitches %POSSESSIVE% ears and chitters.",
+                " wiggles and twitches %POSSESSIVE% ears squeaking softly."]], // actions // order matters, match sound with action
                 EarNibble :
-                [["Mnyaa~","Nnyaa~","Nnyaaaaah~"],
+                [["Guhh...","Mmngh..","Nnnh~!"],
                 [" moans softly and twitches %POSSESSIVE% ears as it's nibbled.", " wiggles and twitches %POSSESSIVE% ears between the teeth.",
                 " moans softly, twitching %POSSESSIVE% ears as it's nibbled."]],
                 EarLick :
-                [["Mnyaa~","Nnyaa~","Nnyaaaaah~"],
+                [["Guhh...","Mmngh..","Nnnh~!"],
                 [" moans softly and twitches %POSSESSIVE% ears as it's licked.", " wiggles and twitches %POSSESSIVE% ears caused by the licking.",
                 " moans softly, twitching %POSSESSIVE% ears as it's licked."]],
                 EarKiss :
-                [["Mnyaa~","Nnyaa~","Nnyaaaaah~"],
+                [["Guhh...","Mmngh..","Nnnh~!"],
                 [" moans softly and twitches %POSSESSIVE% ears as it's kissed.", " wiggles and twitches %POSSESSIVE% ears caused by the kissing.",
                 " moans softly, twitching %POSSESSIVE% ears as it's kissed."]],
                 HeadBrush :
                 [["",""],
-                [" squeaks softly and furls %POSSESSIVE% wings.", " squeaks softly and furls %POSSESSIVE% wings."]],
+                [" squeaks softly and furls %POSSESSIVE% wings.", " squeaks softly and furls %POSSESSIVE% wings.", " squeaks softly and bares %POSSESSIVE% fang."]],
                 HeadPat :
                 [["","","",""],
-                [" purrs softly and twitches %POSSESSIVE% ears.", " purrs happily and twitches %POSSESSIVE% ears.",
-                 " purrs softly, twitches %POSSESSIVE% ears and nuzzles into the pat."," purrs happily, twitches %POSSESSIVE% ears and nuzzles into the pat."]],
+                [" squeaks softly and twitches %POSSESSIVE% ears.", " chitters happily and twitches %POSSESSIVE% wings.",
+                 " squeaks softly, twitches %POSSESSIVE% ears and nuzzles into the pat."," chitters happily, twitches %POSSESSIVE% ears and nuzzles into the pat."]],
                 CaressBack :
                 [["",""],
-                [" purrs softly and wags %POSSESSIVE% tail.", " purrs softly, arches %POSSESSIVE% back and wags %POSSESSIVE% tail."]],
+                [" chitters softly and wiggles %POSSESSIVE% rear.", " squeaks softly, arches %POSSESSIVE% back and squirms."]],
                 MassageBack :
                 [[""],
-                [" purrs softly and wags %POSSESSIVE% tail."]],
+                [" chitters softly and slightly unfurls %POSSESSIVE% wings."]],
                 CaressButt :
-                [["Mnyaa~"],
-                [" purrs softly, wiggles %POSSESSIVE% butt and wags %POSSESSIVE% tail."]],
+                [["Nnnh~!"],
+                [" squeaks softly, wiggles %POSSESSIVE% butt while %POSSESSIVE% wings quiver slightly."]],
                        }
 
     function substitude_genders(text) {
